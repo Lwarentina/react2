@@ -8,11 +8,20 @@ class App extends React.Component {
   render() {
     return(
       <div><hr />
-        <button type="button" class="btn btn-outline-primary"><Link to="/">Beranda</Link> </button>|
-        <button type="button" class="btn btn-outline-primary"><Link to="/aboutme">Me</Link></button> |
-        <button type="button" class="btn btn-outline-primary"><Link to="/karya">Karya</Link></button> |
-        <button type="button" class="btn btn-outline-primary"><Link to="/kontak">Kontak</Link></button>
-        <hr />
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <Link class="nav-link" to="/">Beranda</Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/aboutme">Me</Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/karya">Karya</Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/kontak">Kontak</Link>
+          </li>
+        </ul><hr />
         <p><Utama /></p>
       </div>
     );
