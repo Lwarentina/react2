@@ -5,6 +5,7 @@ import Beranda from "./beranda";
 import Aboutme from "./aboutme";
 import Karya from "./karya";
 import Kontak from "./kontak";
+import Gallery from "./gallery";
 
 class Utama extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Utama extends React.Component {
       <Routes>
         <Route exact path="/" element={<Beranda/>} />
         <Route path="/aboutme" element={<Aboutme/>} />
+        <Route exact path="/gallery" element={<Gallery/>} />
         <Route path="/karya" element={<Karya/>} />
         <Route path="/kontak" element={<Kontak/>} />
       </Routes>
