@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import $ from "jquery";
 import Card from "./card"
 
-class Gallery extends Component {  
+class Gallery extends React.Component {  
   constructor(){  
     super()
         this.state = {

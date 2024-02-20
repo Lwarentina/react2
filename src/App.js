@@ -1,6 +1,5 @@
 import React from 'react';
 import Utama from './Components/utama';
-import Navbar from './Components/navb'
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -14,6 +13,9 @@ class App extends React.Component {
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/aboutme">Me</Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/gallery">Gallery</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/karya">Karya</Link>

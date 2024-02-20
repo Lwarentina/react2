@@ -13,7 +13,7 @@ class Utama extends React.Component {
       <Routes>
         <Route exact path="/" element={<Beranda/>} />
         <Route path="/aboutme" element={<Aboutme/>} />
-        <Route exact path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/karya" element={<Karya/>} />
         <Route path="/kontak" element={<Kontak/>} />
       </Routes>
