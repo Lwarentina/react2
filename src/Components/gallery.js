@@ -23,8 +23,6 @@ class Gallery extends React.Component {
                     cover:"https://drive.google.com/uc?id=1e-thvq7lkG1_gw0FqHzRoiAhfhdgpOUj"
                 },
             ],
-
-
             action: "",
             isbn: "",
             judul: "",
