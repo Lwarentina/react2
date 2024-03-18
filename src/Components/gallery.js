@@ -128,8 +128,7 @@ Drop = (item) => {
  }
 
  componentDidMount=()=>{
-
-   this.setUser()
+  this.setUser()
  }
 
 
@@ -208,8 +207,6 @@ Drop = (item) => {
             }
         }
     }
-
-
   
   render(){
     return(

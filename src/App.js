@@ -18,11 +18,15 @@ class App extends React.Component {
             <Link class="nav-link" to="/gallery">Gallery</Link>
           </li>
           <li class="nav-item">
+            <Link class="nav-link" to="/cart">cart</Link>
+          </li>
+          <li class="nav-item">
             <Link class="nav-link" to="/karya">Karya</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/kontak">Kontak</Link>
           </li>
+          
         </ul><hr />
         <p><Utama /></p>
       </div>
