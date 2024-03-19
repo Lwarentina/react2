@@ -31,7 +31,7 @@ class App extends React.Component {
         <p><Utama /></p>
       </div>
     );
-  }
+  } 
 }
 
 export default App;
