@@ -21,7 +21,6 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 
-
 // GET: /pegawai --> end point untuk mengakses data pegawai
 app.get("/pegawai", (req,res) => {
     let sql = "select * from pegawai"
