@@ -21,6 +21,9 @@ class App extends React.Component {
             <Link class="nav-link" to="/cart">cart</Link>
           </li>
           <li class="nav-item">
+            <Link to="/pegawai" class="nav-link">Daftar Pegawai</Link> 
+          </li>
+          <li class="nav-item">
             <Link class="nav-link" to="/karya">Karya</Link>
           </li>
           <li class="nav-item">
