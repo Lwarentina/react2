@@ -72,7 +72,7 @@ app.post("/pegawai/save", (req,res) => {
         alamat: req.body.alamat
     }
     let message = ""
-
+ 
 
     let sql = "insert into pegawai set ?"
     db.query(sql, data, (err,result) => {
